@@ -16,35 +16,37 @@ installation was blocked with `EACCES` while accessing the npm registry.
 No Remix/Ganache GUI deployment or screenshots have been completed.
 Change the table only after performing the corresponding manual tests.
 
-| # | Contract | Level | Tested via Remix on Ganache | Screenshots |
+## Progress
+
+| # | Contract | Level | Tested on Ganache | Screenshots |
 |---|---|---|---|---|
-| 01 | Storage | Basic | Pending | Pending |
-| 02 | Greeting | Basic | Pending | Pending |
-| 03 | Counter | Basic | Pending | Pending |
-| 04 | Ownable / ProtectedVault | Medium | Pending | Pending |
-| 05 | SimpleBank | Medium | Pending | Pending |
-| 06 | Voting | Medium | Pending | Pending |
-| 07 | MyToken | Medium | Pending | Pending |
-| 08 | Crowdfunding | Advanced | Pending | Pending |
-| 09 | Lottery | Advanced | Pending | Pending |
-| 10 | TimeLockVault | Advanced | Pending | Pending |
-| 11 | Escrow | Advanced | Pending | Pending |
-| 12 | SimpleNFT | Advanced | Pending | Pending |
-| 13 | EnglishAuction | Expert | Pending | Pending |
-| 14 | MultisigWallet | Expert | Pending | Pending |
-| 15 | StakingRewards | Expert | Pending | Pending |
+| 01 | Storage | Basic | Yes | Task 1 (screenshots/Task_1/) |
+| 02 | Greeting | Basic | Yes | Task 2 (screenshots/Task_2/) |
+| 03 | Counter | Basic | In progress | Task 3 (screenshots/Task_3/) |
+| 04 | Ownable / ProtectedVault | Medium | In progress | Task 4 (screenshots/Task_4/) |
+| 05 | SimpleBank | Medium | In progress | Task 5 (screenshots/Task_5/) |
+| 06 | Voting | Medium | In progress | Task 6 (screenshots/Task_6/) |
+| 07 | MyToken | Medium | Not yet | - |
+| 08 | Crowdfunding | Advanced | Not yet | - |
+| 09 | Lottery | Advanced | Not yet | - |
+| 10 | TimeLockVault | Advanced | Not yet | - |
+| 11 | Escrow | Advanced | Not yet | - |
+| 12 | SimpleNFT | Advanced | Not yet | - |
+| 13 | EnglishAuction | Expert | Not yet | - |
+| 14 | MultisigWallet | Expert | Not yet | - |
+| 15 | StakingRewards | Expert | Not yet | - |
 
 ## How to run
 
-1. Open https://remix.ethereum.org and create workspace `Assignment15`.
-2. Upload the `.sol` files in `contracts/` into the workspace.
-3. Select compiler **0.8.19**, optimizer enabled / 200 runs, EVM **Paris**.
-4. Start Ganache with RPC `http://127.0.0.1:7545`.
-5. In Remix's Deploy & Run tab, select **External HTTP Provider** (sometimes
-   labelled **Custom - External Http Provider**) and enter that RPC URL.
-6. Select the correct contract, enter its constructor arguments, and deploy.
-7. Follow [HUONG_DAN.md](HUONG_DAN.md) for the per-contract test checklist.
-8. Save genuine screenshots and complete [report/REPORT.md](report/REPORT.md).
+1. Upload the Solidity files in contracts/ to Remix IDE.
+2. Compile with Solidity 0.8.19, optimizer enabled, 200 runs, EVM London.
+3. Start Ganache at http://127.0.0.1:7545.
+4. Select Custom - External Http Provider in Remix and enter the Ganache RPC URL.
+5. Select the contract, enter its constructor arguments, deploy and test.
+
+## Report
+
+REPORT.md (report/REPORT.md)
 
 ## Supplemental local checks
 
