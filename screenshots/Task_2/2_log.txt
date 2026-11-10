@@ -1,0 +1,50 @@
+[block:9 txIndex:0]
+from:
+0x38e...98b73
+to:
+Greeting.setGreeting(string) 0xB7C...03378
+value:
+0 wei
+data:
+0xa41...00000
+logs:
+1
+hash:
+0x994...4076d
+status	1 Transaction mined and execution completed
+transaction hash	0xe8d8a13685abdae1b53a02e5ef0116b77d59e81ff0824b864e465bc92fd06607
+block hash	0x994688be522c0d109df193b81fda7e712b4d3ceae489849b23f3560a7d34076d
+block number	9
+from	0x38e7cDe7b658c258F71aA7c064AFf9F317B98b73
+to	Greeting.setGreeting(string) 0xB7CEA8405A267010e8ed46D535B6f11eCD003378
+transaction cost	32799 gas 
+decoded input	{
+	"string _g": "GM Ganache"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xB7CEA8405A267010e8ed46D535B6f11eCD003378",
+		"topic": "0xea07f7ca8b8b2cfaab1214b6e1459ad859cf1ff2d60a948a1f9c4644970c8950",
+		"event": "GreetingChanged",
+		"args": {
+			"0": "0x38e7cDe7b658c258F71aA7c064AFf9F317B98b73",
+			"1": "GM Ganache"
+		}
+	}
+]
+raw logs	[
+  {
+    "_type": "log",
+    "address": "0xB7CEA8405A267010e8ed46D535B6f11eCD003378",
+    "blockHash": "0x994688be522c0d109df193b81fda7e712b4d3ceae489849b23f3560a7d34076d",
+    "blockNumber": 9,
+    "data": "0x00000000000000000000000038e7cde7b658c258f71aa7c064aff9f317b98b730000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000a474d2047616e6163686500000000000000000000000000000000000000000000",
+    "index": 0,
+    "topics": [
+      "0xea07f7ca8b8b2cfaab1214b6e1459ad859cf1ff2d60a948a1f9c4644970c8950"
+    ],
+    "transactionHash": "0xe8d8a13685abdae1b53a02e5ef0116b77d59e81ff0824b864e465bc92fd06607",
+    "transactionIndex": 0
+  }
+]

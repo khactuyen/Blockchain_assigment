@@ -1,0 +1,53 @@
+[block:3 txIndex:0]
+from:
+0x8c3...02f18
+to:
+Storage.set(uint256) 0x2a2...4Afb8
+value:
+0 wei
+data:
+0x60f...00064
+logs:
+1
+hash:
+0x6fc...d7b82
+
+
+status	1 Transaction mined and execution completed
+transaction hash	0xca437e3fe2d1bc5f665a36bd8151335f9df29e93ecfe426adf40e123e17bcc42
+block hash	0x6fc35d4f503f1cda236f0f938ed43126f851ab6c90e5d44ed61b3040f66d7b82
+block number	3
+from	0x8c3D13C1237Afbc3B57a878a16E9Eb0a56302f18
+to	Storage.set(uint256) 0x2a23885147A6A527D6aa97015324Baa44f44Afb8
+transaction cost	28176 gas 
+decoded input	{
+	"uint256 _value": "100"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x2a23885147A6A527D6aa97015324Baa44f44Afb8",
+		"topic": "0xf3f57717dff9f5f10af315efdbfadc60c42152c11fc0c3c413bbfbdc661f143c",
+		"event": "ValueSet",
+		"args": {
+			"0": "0x8c3D13C1237Afbc3B57a878a16E9Eb0a56302f18",
+			"1": "100"
+		}
+	}
+]
+raw logs	[
+  {
+    "_type": "log",
+    "address": "0x2a23885147A6A527D6aa97015324Baa44f44Afb8",
+    "blockHash": "0x6fc35d4f503f1cda236f0f938ed43126f851ab6c90e5d44ed61b3040f66d7b82",
+    "blockNumber": 3,
+    "data": "0x0000000000000000000000000000000000000000000000000000000000000064",
+    "index": 0,
+    "topics": [
+      "0xf3f57717dff9f5f10af315efdbfadc60c42152c11fc0c3c413bbfbdc661f143c",
+      "0x0000000000000000000000008c3d13c1237afbc3b57a878a16e9eb0a56302f18"
+    ],
+    "transactionHash": "0xca437e3fe2d1bc5f665a36bd8151335f9df29e93ecfe426adf40e123e17bcc42",
+    "transactionIndex": 0
+  }
+]

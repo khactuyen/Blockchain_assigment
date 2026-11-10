@@ -1,0 +1,48 @@
+[block:45 txIndex:0]
+from:
+0x38e...98b73
+to:
+Counter.increment() 0x03a...bf376
+value:
+0 wei
+data:
+0xd09...de08a
+logs:
+1
+hash:
+0x8d6...4e77b
+status	1 Transaction mined and execution completed
+transaction hash	0xa90b6f6248decb842721c4bdfcb08caaea705de0c8fdb256ae3f13ce50e2b32e
+block hash	0x8d6cf502580f6e69aaf903ea42370f7710d9f88c0ee73546627bfe22c6f4e77b
+block number	45
+from	0x38e7cDe7b658c258F71aA7c064AFf9F317B98b73
+to	Counter.increment() 0x03a23de253783f339676192082E5dEd0181bf376
+transaction cost	28266 gas 
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x03a23de253783f339676192082E5dEd0181bf376",
+		"topic": "0x38ac789ed44572701765277c4d0970f2db1c1a571ed39e84358095ae4eaa5420",
+		"event": "Incremented",
+		"args": {
+			"0": "0x38e7cDe7b658c258F71aA7c064AFf9F317B98b73",
+			"1": "30"
+		}
+	}
+]
+raw logs	[
+  {
+    "_type": "log",
+    "address": "0x03a23de253783f339676192082E5dEd0181bf376",
+    "blockHash": "0x8d6cf502580f6e69aaf903ea42370f7710d9f88c0ee73546627bfe22c6f4e77b",
+    "blockNumber": 45,
+    "data": "0x00000000000000000000000038e7cde7b658c258f71aa7c064aff9f317b98b73000000000000000000000000000000000000000000000000000000000000001e",
+    "index": 0,
+    "topics": [
+      "0x38ac789ed44572701765277c4d0970f2db1c1a571ed39e84358095ae4eaa5420"
+    ],
+    "transactionHash": "0xa90b6f6248decb842721c4bdfcb08caaea705de0c8fdb256ae3f13ce50e2b32e",
+    "transactionIndex": 0
+  }
+]
